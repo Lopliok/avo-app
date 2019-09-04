@@ -1,3 +1,34 @@
+## Resizer Component
+
+It´s component of container which can contain any content and it´s resizible by drag handle.
+Container and every drag handle have modifiable styles and children components by param dragComponents.
+
+Example of using. Children should fit the height of Resizer component.
+
+```
+  <Resizer
+      defHeight={100}
+      defWidth={300}
+      styles={{
+        container: { border: "1px solid black" },
+        drag: { right: {}, bottom: {}, corner: {} }
+      }}
+    >
+      <div style={{ background: "lightblue", height: "100%" }}>Example 1</div>
+    </Resizer>
+```
+
+In the project directory, you can run:
+
+### `npm start`
+
+
+
+
+
+------------------------------------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
