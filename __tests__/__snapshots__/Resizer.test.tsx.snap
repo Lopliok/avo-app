@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Resizer /> it matches the snapshot 1`] = `
+<div
+  className="sc-bdVaJa jGgSYQ"
+  id="test-container-resizer"
+  style={
+    Object {
+      "border": "1px solid black",
+      "height": 100,
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="sc-bwzfXH hnfraZ"
+    onMouseDown={[Function]}
+    style={Object {}}
+  />
+  <div
+    className="sc-bwzfXH FpJEa"
+    onMouseDown={[Function]}
+    style={Object {}}
+  />
+  <div
+    className="sc-bwzfXH kCdSJV"
+    id="test-corner-drag"
+    onMouseDown={[Function]}
+    style={Object {}}
+  />
+  <div
+    style={
+      Object {
+        "background": "lightblue",
+        "height": "100%",
+      }
+    }
+  >
+    Example 1
+  </div>
+</div>
+`;
